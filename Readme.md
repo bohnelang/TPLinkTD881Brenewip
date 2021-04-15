@@ -17,7 +17,7 @@ $iprouter       = "192.168.1.1";
 $opts = array(
         'http' => array(
                 'method'=>"GET",
-                'header' => array( 'host: $iprouter',"Authorization: Basic ".bas                                                          e64_encode("$adminname:$adminpasswd"))
+                'header' => array( 'host: $iprouter',"Authorization: Basic ".base64_encode("$adminname:$adminpasswd"))
         )
 );
 
